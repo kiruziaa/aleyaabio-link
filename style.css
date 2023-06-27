@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    font-family: arial;
+}
+
+.link-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.link-bio img {
+    margin-top: 38px;
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 170px;
+    height: 160px;
+    border-radius: 9999px;
+    align-content: center;
+}
+
+.link-bio-text{
+    text-align: center;
+    justify-content: center;
+    width: 246px;
+    height: 80px;
+    margin-left: 560px;
+    margin-right: 600px;
+}
+.link-bio-text h1{
+    color: #000;
+    font-size: 34px;
+    font-family: Italianno;
+    align-content: center;
+}
+.links-bio {
+    margin-left: 650px;
+    margin-right: 420px;
+    position: relative;
+}
+
+.links-bio i{
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.links-bio a{
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.message-me{
+    position: relative;
+    color: black;
+    margin-left: 570px;
+    margin-right: 420px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.message-me p{
+    text-align: center;
+}
+
+.workwithme p{
+    text-align: center;
+    margin-left: 470px;
+    margin-right: 320px;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bio-links {
+    position: relative;
+    cursor: pointer;
+    padding: 15px;
+    background-image: radial-gradient(#ffffff, #a6a6a6) ;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 21px;
+    text-align: center;
+    margin-left: 470px;
+    margin-right: 320px;
+}
+
+.bio-links p{
+    text-align: center;
+    color: black;
+}
+
+.bio-links a{
+    text-decoration: none;
+}
